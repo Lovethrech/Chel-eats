@@ -30,6 +30,27 @@
 .history-ctn p{
     margin:auto 0;
 }
+.hero-food-slide-bg{
+    width:100%;
+    height:60vh;
+    display:flex;
+    place-items:center;
+    align-items:center;
+    justify-content:space-between;
+}
+.hero-food{
+    width: 600px;
+}
+.hero-food img{
+    width:100%;
+    height:100%;
+}
+.left-arrow-ctn, .right-arrow-ctn{
+    font-size:40px;
+    background-color: white;
+    color: black;
+    border-radius: 0 10px 10px 0;
+}
 </style>
 
 
@@ -46,8 +67,18 @@
                     <p>History</p>
                 </div>
             </div>
-            
-            
+            <div class="hero-food-slide-bg">
+                <div class="left-arrow-ctn">
+                    <i class='bx bx-chevron-left'></i>
+                </div>
+                <div class="hero-food">
+                    <img src="/Cold-Stone-Creamery-1.png" alt=" Three Cold stone creamery"/>
+                </div>
+                <div class="right-arrow-ctn">
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+            </div>
+
         </div>
     </div>
 </template>
