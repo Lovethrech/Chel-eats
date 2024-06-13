@@ -1,13 +1,24 @@
+<script setup>
+import LogoCtn from "@/components/LogoCtn.vue";
+</script>
+
 <style scoped>
 .food-section-main-ctn{
+    background-color: hsl(0, 0%, 0%,0.2);
+    padding: 0 20px 20px;
+    border-radius: 0 0 0 250px;
 }
 .food-section-ctn{
 }
 .nav-ctn{
     display:flex;
     justify-content:space-between;
+    height:4vh;
 }
 .menu-ctn{
+    display:flex;
+    place-items:center;
+    justify-content:center;
     background-color:white;
     color:black;
     font-size:20px;
@@ -47,9 +58,28 @@
 }
 .left-arrow-ctn, .right-arrow-ctn{
     font-size:40px;
-    background-color: white;
-    color: black;
+    background-color: rgb(29, 43, 51);
+    color: rgb(255, 255, 255);
     border-radius: 0 10px 10px 0;
+}
+.level-ctn-ctn-main{
+    width:100%;
+    height:1vh;
+    display:flex;
+    place-items:center;
+    justify-content:center;
+}
+.level-ctn-ctn{
+    background-color: #253722;
+    width:40%;
+    height:100%;
+    border-radius:30px;
+}
+.level-ctn{
+    background-color:white;
+    width:20%;
+    height:100%;
+    border-radius: 30px;
 }
 </style>
 
@@ -62,6 +92,7 @@
                 <div class="menu-ctn">
                     <i class='bx bxs-category'></i>
                 </div>
+                <LogoCtn />
                 <div class="history-ctn">
                     <i class='bx bx-history'></i>
                     <p>History</p>
@@ -69,16 +100,20 @@
             </div>
             <div class="hero-food-slide-bg">
                 <div class="left-arrow-ctn">
-                    <i class='bx bx-chevron-left'></i>
+                    <!-- <i class='bx bx-chevron-left'></i> -->
                 </div>
                 <div class="hero-food">
-                    <img src="/Cold-Stone-Creamery-1.png" alt=" Three Cold stone creamery"/>
+                    <img src="/Cold-Stone-Creamery-1.png" alt=" Three Cold stone creamery" />
                 </div>
                 <div class="right-arrow-ctn">
                     <i class='bx bx-chevron-right'></i>
                 </div>
             </div>
-
+            <div class="level-ctn-ctn-main">
+                <div class="level-ctn-ctn">
+                    <div class="level-ctn"></div>
+                </div>
+            </div>
         </div>
     </div>
 </template>

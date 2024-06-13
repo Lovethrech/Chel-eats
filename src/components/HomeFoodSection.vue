@@ -1,5 +1,6 @@
 <script setup>
 import FoodSection from "@/components/FoodSection.vue";
+import OrderType from "@/components/OrderType.vue";
 import ShadowOverlay from "@/components/ShadowOverlay.vue";
 </script>
 
@@ -7,6 +8,7 @@ import ShadowOverlay from "@/components/ShadowOverlay.vue";
 .home-food-section-main-ctn{
     width:60%;
     height:100%;
+    padding: 0;
 }
 
 .home-food-section-ctn{
@@ -18,7 +20,8 @@ import ShadowOverlay from "@/components/ShadowOverlay.vue";
 <template>
     <div class="home-food-section-main-ctn">
         <div class="home-food-section-ctn">
-`           <FoodSection/>
+`           <FoodSection/><br/><br/>
+            <OrderType/>
         </div>
     </div>
 </template>

@@ -7,6 +7,7 @@ import HomeFoodSection from "@/components/HomeFoodSection.vue";
     background-color: #162114;
     width: 100%;
     height:100vh;
+    padding:0;
 }
 </style>
 
