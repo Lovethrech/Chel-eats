@@ -22,7 +22,7 @@ import OnBoardLists from "@/data/OnBoardLists.json";
     border:2px solid black;
 }
 .link{
-    width:80%;
+    width:90%;
     text-decoration: none;
     color:black;
     display:flex;
