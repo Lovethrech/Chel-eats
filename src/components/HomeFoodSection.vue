@@ -14,6 +14,9 @@ import ShadowOverlay from "@/components/ShadowOverlay.vue";
 .home-food-section-ctn{
     width:100%;
     height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
 }
 </style>
 
@@ -23,5 +26,6 @@ import ShadowOverlay from "@/components/ShadowOverlay.vue";
 `           <FoodSection/><br/><br/>
             <OrderType/>
         </div>
+        <ShadowOverlay/>
     </div>
 </template>

@@ -92,7 +92,7 @@ import LogoCtn from "@/components/LogoCtn.vue";
                 <div class="menu-ctn">
                     <i class='bx bxs-category'></i>
                 </div>
-                <LogoCtn />
+                <!-- <LogoCtn /> -->
                 <div class="history-ctn">
                     <i class='bx bx-history'></i>
                     <p>History</p>

@@ -1,6 +1,7 @@
 <style scoped>
 .order-type-main-ctn{
     color:white;
+    padding:50px;
 }
 .order-type-ctn{
     
