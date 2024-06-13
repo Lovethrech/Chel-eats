@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "icon": "<i class='bx bxl-apple'></i>",
+        "link": "/",
+        "name": "Continue with Apple"
+    },
+    {
+        "id":"2",
+        "icon": "<i class='bx bxl-facebook' ></i>",
+        "link": "/",
+        "name": "Continue with Facebook"
+    },
+    {
+        "id":"3",
+        "icon": "<i class='bx bxl-google' ></i>",
+        "link": "/",
+        "name": "Continue with Google"
+    },
+    {
+        "id":"4",
+        "icon": "<i class='bx bx-envelope' ></i>",
+        "link": "/",
+        "name": "Continue with Email"
+    }
+]
