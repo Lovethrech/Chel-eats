@@ -1,6 +1,6 @@
 <style scoped>
 .overlay{
-    background-color: #0000007c;
+    background-color: #000000c9;
     position: absolute;
     top:0;
     width:60%;
