@@ -14,7 +14,7 @@
     {
         "id":"3",
         "icon": "<i class='bx bxl-google' ></i>",
-        "link": "/",
+        "link": "/google_auth",
         "name": "Continue with Google"
     },
     {
