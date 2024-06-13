@@ -1,18 +1,12 @@
 <script setup>
-import { ref } from "vue";
-import OnBoardingText from "@/components/OnBoardingText.vue";
-import OnBoardingBtn from "@/components/OnBoardingBtn.vue";
+import { ref, watch } from "vue";
 
-const gMail= ref("")
+const gMail = ref("");
 const displayBtn = ref(false);
-const submitMail = () => {
-    if ((gMail.value === "") || (gMail.value === null)) {
-        displayBtn.value = false;
-    }
-    else {
-        displayBtn.value = true;
-    }
-}
+
+watch(gMail, (newValue) => {
+    displayBtn.value = newValue !== null && newValue !== "";
+});
 </script>
 
 <style scoped>
@@ -87,7 +81,7 @@ const submitMail = () => {
             <h3 class="title">Let's get started with your email:</h3>
             <p class="desc">*Indicate required field</p>
             <br><br><br>
-            <div class="email-ctn" @click="submitMail">
+            <div class="email-ctn">
                 <input v-model="gMail" type="email" name="email" placeholder="*Email"/>
             </div>
         </div>
